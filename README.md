@@ -61,19 +61,19 @@
 
     * Tab1： trending，可以按照语言选择，选择时间周期，并通过webview显示仓库内容
 
-      ![trending](C:\Users\ljh\Desktop\git\trending.png)![trending](C:\Users\ljh\Desktop\git\webview.png)
+      !![trending.png](https://i.loli.net/2018/07/04/5b3ba1f7ce8cd.png)![webview.png](https://i.loli.net/2018/07/04/5b3ba1f7dd0d3.png)
 
     * Tab2： popular， 可以按照语言选择，时间周期的选择，同时有搜索仓库的功能
 
-      ![popular](C:\Users\ljh\Desktop\git\popular.png)![trending](C:\Users\ljh\Desktop\git\search.png)
+      ![popular.png](https://i.loli.net/2018/07/04/5b3ba1f6afc74.png)![search.png](https://i.loli.net/2018/07/04/5b3ba1f736f2b.png)
 
     * Tag3： favorite， 展示自己收藏的仓库
 
-      ![favorite](C:\Users\ljh\Desktop\git\favorite.png)
+      ![favorite](https://i.loli.net/2018/07/04/5b3ba324388d4.png)
 
     * Tab4： settiing， 管理trending和popular界面所展示的子tag，已及切换主题
 
-      ![setting](C:\Users\ljh\Desktop\git\setting.png)![theme](C:\Users\ljh\Desktop\git\theme.png)![language](C:\Users\ljh\Desktop\git\language.png)
+      !![language.png](https://i.loli.net/2018/07/04/5b3ba1f61a0f1.png)![setting.png](https://i.loli.net/2018/07/04/5b3ba1f736e04.png)![theme.png](https://i.loli.net/2018/07/04/5b3ba1f73994f.png)
 
 * 接口 
 
