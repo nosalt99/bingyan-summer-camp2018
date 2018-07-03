@@ -85,12 +85,15 @@
 
     * 该接口只能获得trending的html页面，需要自己解析页面，获得*开源项目名*，*项目描述*
 
+  API_URL: https://api.github.com/
+
   * popular
 
     /search/repositories
 
-    - 查询所有的:q=stars:>1&sort=stars
-    - 分类查询：q=ios&sort=stars 
+    * 参数说明
+      * 查询所有的:q=stars:>1&sort=stars
+      * 分类查询：q=ios&sort=stars 
 
 * 可选项：
 
@@ -102,4 +105,4 @@
 
 
 
-深入学习资料待更新。。。
+---------深入学习资料待更新---------
