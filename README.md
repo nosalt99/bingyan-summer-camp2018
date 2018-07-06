@@ -32,6 +32,14 @@
   * JDK安装
   * SDK安装
   * 建议时长：0.5 day
+  
+* iOS开发环境
+
+  * Xcode
+  * Postman
+  * CocoaPods
+  * 建议时长:   0.5 day
+
 
 
 
@@ -51,7 +59,11 @@
     [MVP模式](http://www.jcodecraeer.com/a/anzhuokaifa/2017/1020/8625.html?1508484926)
   - 建议时长：1 day
 
-
+* Swift / Objective-C 语法
+* [UIKit](https://itisjoe.gitbooks.io/swiftgo/content/)
+* [代码规范](https://www.jianshu.com/p/c818c00e0690)
+* MVC & MVVN 设计模式
+  * 要求 尽可能写出 可读性好 耦合度低的代码
 
 ## 实战阶段
 
