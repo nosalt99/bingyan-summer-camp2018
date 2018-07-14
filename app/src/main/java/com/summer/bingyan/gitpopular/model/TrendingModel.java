@@ -21,11 +21,16 @@ public class TrendingModel {
     private String urlOfTitle;
     private Trend trend;
     private List<Trend> trends=new ArrayList<>();
+    TrendingCallback trendingCallback;
     int length;
-    public void getTrending(final String url,final TrendingCallback callback){
-        start(url,callback);
+    public TrendingModel(TrendingCallback trendingCallback)
+    {
+        this.trendingCallback=trendingCallback;
     }
-    public void start( final String url,final TrendingCallback callback)
+    public void getTrending(final String url){
+        start(url);
+    }
+    public void start( final String url)
     {
         new Thread(){
             public void run()
@@ -46,7 +51,7 @@ public class TrendingModel {
                         trend.setContent(content);
                         trends.add(trend);
                     }
-                    callback.onSuccess(trends);
+                    trendingCallback.onSuccess(trends);
                 }catch (Exception e)
                 {
                     e.printStackTrace();
@@ -57,5 +62,4 @@ public class TrendingModel {
 public interface TrendingCallback{
        void onSuccess(List list);
 }
-
 }
