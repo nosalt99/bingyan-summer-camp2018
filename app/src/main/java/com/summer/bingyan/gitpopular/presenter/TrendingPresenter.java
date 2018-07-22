@@ -1,6 +1,8 @@
 package com.summer.bingyan.gitpopular.presenter;
 
+import android.content.Context;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 
 import com.summer.bingyan.gitpopular.data.Trend;
 import com.summer.bingyan.gitpopular.fragments.TrendingFragment;
@@ -12,16 +14,23 @@ import java.util.List;
 public class TrendingPresenter {
     private TrendingFragment trendingFragment;
     private TrendingModel trendingModel;
+    private Context context;
     private List<Trend> trends=new ArrayList<>();
-    public TrendingPresenter(TrendingFragment trendingFragment){
+    public TrendingPresenter(Context context, TrendingFragment trendingFragment){
         this.trendingFragment=trendingFragment;
+        this.context=context;
     }
     public void getTrending(String url){
-       trendingModel=new TrendingModel(new TrendingModel.TrendingCallback() {
+       trendingModel=new TrendingModel(context,new TrendingModel.TrendingCallback() {
            @Override
            public void onSuccess(List list) {
+               trends.clear();
                trends.addAll(list);
-               trendingFragment.setAdapter(trends);
+               trendingFragment.notifyChange(trends);
+           }
+           public void onFail()
+           {
+               trendingFragment.showToast();
            }
        });
        trendingModel.getTrending(url);

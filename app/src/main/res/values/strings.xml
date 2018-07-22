@@ -3,4 +3,17 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="day">day</string>
+    <string name="week">week</string>
+    <string name="month">month</string>
+    <string name="css">css</string>
+    <string name="java">java</string>
+    <string name="all">all</string>
+    <string name="javascript">javascript</string>
+    <string name="cjiajia">c++</string>
+    <string name="c">c#</string>
+    <string name="s">search</string>
+    <string name="trend">trend</string>
+    <string name="popular">popular</string>
+    <string name="change_theme">change theme</string>
 </resources>
