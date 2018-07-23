@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.ContextThemeWrapper;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -105,6 +106,7 @@ public class PopularFragment extends Fragment {
               String suburl1=url.substring(0,url.indexOf("q=")+2);
               String suburl2=url.substring(url.indexOf("&sort"),url.length());
               url=suburl1+editext+language+suburl2;
+              Log.d("luchixiang", "onClick: "+url);
               popularPresenter.getPopular(url);
           }
       });//搜索

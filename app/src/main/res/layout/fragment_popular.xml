@@ -17,13 +17,15 @@
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:orientation="horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
         >
         <EditText
-        android:layout_width="0dp"
-        android:layout_weight="9"
-        android:layout_height="45dp"
-        android:id="@+id/search"
-        android:hint="@string/s"
+            android:layout_width="0dp"
+            android:layout_weight="9"
+            android:layout_height="45dp"
+            android:id="@+id/search"
+            android:hint="@string/s"
          />
         <ImageView
             android:layout_width="0dp"

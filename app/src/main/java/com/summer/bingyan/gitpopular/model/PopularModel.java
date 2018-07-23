@@ -79,7 +79,13 @@ public class PopularModel {
                     String full_name=jsonObject.get("full_name").getAsString();
                     long id=jsonObject.get("id").getAsLong();
                     String html_url=jsonObject.get("html_url").getAsString();
-                    String description=jsonObject.get("description").getAsString();
+                    String description;
+                    if(jsonObject.get("description").isJsonNull())
+                    {
+                        description="";
+                   }
+                    else description=jsonObject.get("description").getAsString();
+                    Log.d(TAG, "rundebug: "+description);
                     owner owner=new owner();
                     JsonObject jsonObject1=jsonObject.get("owner").getAsJsonObject();
                     long id_owner=jsonObject1.get("id").getAsLong();
