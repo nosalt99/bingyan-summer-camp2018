@@ -1,0 +1,55 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.test.MainActivity">
+    <item
+        android:id="@+id/c"
+        android:orderInCategory="0"
+        android:title="@string/c"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/time"
+        android:orderInCategory="1"
+        android:title="@string/day"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@+id/today"
+                android:title="@string/day"/>
+            <item android:title="@string/week"
+                android:id="@+id/week"/>
+            <item android:id="@+id/month"
+                android:title="@string/month"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/java"
+        android:orderInCategory="2"
+        android:title="@string/java"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/cjiajia"
+        android:orderInCategory="2"
+        android:title="@string/cjiajia"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/css"
+        android:orderInCategory="2"
+        android:title="@string/css"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/all"
+        android:orderInCategory="2"
+        android:title="@string/all"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/javascript"
+        android:orderInCategory="2"
+        android:title="@string/javascript"
+        app:showAsAction="never"
+        />
+</menu>

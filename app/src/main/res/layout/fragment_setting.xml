@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SettingFragment"
+    >
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:id="@+id/setting_toolbar"
+        android:background="?selected_color"
+        android:layout_alignParentTop="true"
+        >
+    </android.support.v7.widget.Toolbar>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:alpha="0.6"
+        android:background="?selected_color"
+        android:layout_alignTop="@+id/change_theme"
+        />
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change_theme"
+        android:id="@+id/change_theme"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:textSize="35sp"
+        android:typeface="serif"
+        />
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/hint"
+       android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitStart"
+        android:tint="?selected_color"
+        />
+</RelativeLayout>

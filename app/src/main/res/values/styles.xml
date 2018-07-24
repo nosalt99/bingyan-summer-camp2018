@@ -7,5 +7,40 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-
+    <style name="green" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="selected_color">#90EE90</item>
+        <item name="colorPrimary">#90EE90</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Red" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="selected_color">#FFC0CB</item>
+        <item name="colorPrimary">#FFC0CB</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Purple" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="selected_color">#E6E6FA</item>
+        <item name="colorPrimary">#E6E6FA</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Cyan" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="selected_color">#F5F5F5</item>
+        <item name="colorPrimary">#F5F5F5</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Yellow" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="selected_color">#F5DEB3</item>
+        <item name="colorPrimary">#F5DEB3</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Blue" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="selected_color">#87CEFA</item>
+        <item name="android:colorPrimary">#87CEFA</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
 </resources>
